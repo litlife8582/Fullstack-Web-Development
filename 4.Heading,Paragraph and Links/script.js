@@ -1,0 +1,1 @@
+alert("You can access the following webpages from here");
