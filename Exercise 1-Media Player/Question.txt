@@ -1,0 +1,2 @@
+You are given 12 files: 6 audio and 6 video
+Design a website using html only to display these files

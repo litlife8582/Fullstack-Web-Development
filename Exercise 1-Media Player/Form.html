@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Media Player Reviews</title>
+</head>
+
+<body>
+    <h1>Review Form for Web Media Player</h1>
+
+    <head>Thanks for visiting our website and reviewing it.</head>
+    <br>
+    <br>
+    <form action="/submit" method="push">
+        <div>
+            Name: <input type="text" name="username" placeholder="Enter your name" required><br>
+            Age: <input type="number" name="age" placeholder="Enter your age" required><br>
+            Email: <input type="text" name="email" placeholder="Enter the email address" required><br>
+        </div>
+        <br>
+        <div>
+            What’s your first impression of the media player page?<br>
+            <input type="radio" name="impression" id="good" value="good" required>
+            <label for="good">Good</label>
+            <input type="radio" name="impression" id="needs improvement" value="needs improvement" required>
+            <label for="needs improvement">Needs Improvement</label>
+            <input type="radio" name="impression" id="bad" value="bad" required>
+            <label for="bad">Bad</label>
+        </div>
+        <br>
+        <div>
+            Is the layout intuitive and easy to navigate?<br>
+            <input type="radio" name="layout" id="yes" value="Yes" required>
+            <label for="Yes">Good</label>
+            <input type="radio" name="layout" id="needs improvement" value="needs improvement" required>
+            <label for="needs improvement">Needs Improvement</label>
+            <input type="radio" name="layout" id="no" value="No" required>
+            <label for="No">No</label>
+        </div>
+        <br>
+        <div>
+            Were you able to play, pause, stop, and seek the media without issues?<br>
+            <input type="radio" name="controls" id="yes" value="Yes" required>
+            <label for="yes">Yes</label>
+            <input type="radio" name="controls" id="needs improvement" value="needs improvement" required>
+            <label for="needs improvement">Needs Improvement</label>
+            <input type="radio" name="controls" id="no" value="No" required>
+            <label for="no">No</label>
+        </div>
+        <br>
+        <div>
+            Are the buttons/icons clearly labeled or understandable without labels<br>
+            <input type="radio" name="user interface" id="yes" value="Yes" required>
+            <label for="yes">Yes</label>
+            <input type="radio" name="user interface" id="needs improvement" value="needs improvement" required>
+            <label for="needs improvement">Needs Improvement</label>
+            <input type="radio" name="user interface" id="no" value="No" required>
+            <label for="no">No</label>
+        </div>
+        <br>
+        <br>
+        <div>
+            Kindly tell what we can improve:
+            <textarea name="Suggesstions" id="Suggesstions" cols="50" rows="5" >Write your suggestions here.....</textarea>
+        </div>
+
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
