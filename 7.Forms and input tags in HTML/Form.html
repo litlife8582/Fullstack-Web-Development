@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="/submit" method="post">
+        <div>
+            Name:<input type="text" name="Username" placeholder="Enter your name" required autofocus><br>
+            Registration No.:<input type="text" name="Registration no." placeholder="Enter your Registration no." required autofocus><br>
+            Branch:<input type="text" name="Branch" placeholder="Enter your branch" required autofocus><br>
+        </div>
+        <br>
+        <div>
+            Choose your gender:
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+        </div>
+        <br>
+        <div>
+            Select exam
+            <select name="Exam" required>
+                <option value="cat 1">Continuous Assessment Test 1</option>
+                <option value="cat 2">Continuous Assessment Test 2</option>
+                <option value="fat">Final Assessment Test</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <textarea name="Reason" cols="50" rows="10" id="reason" placeholder="Reason for Re-examination" required></textarea>
+        </div>
+
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
