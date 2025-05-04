@@ -1,10 +1,60 @@
+SEO (Search Engine Optimization) is the practice of improving a website to 
+increase its visibility when people search for products or services related to
+your business in search engines like Google, Bing, or Yahoo. The better visibility 
+your pages have in search results, the more likely you are to attract attention 
+and drive traffic to your site.
+
+Key components of SEO include:
+1.On-page SEO: Optimizing content, title tags, meta descriptions, headers, and URLs.
+2.Technical SEO: Ensuring your website is crawlable and indexable (e.g., fast loading,
+mobile-friendly, secure with HTTPS).
+3.Off-page SEO: Earning backlinks from other reputable sites.
+4.Content quality: Writing relevant, informative, and original content for users.
+
+
+Core Web Vitals are a set of specific factors that Google considers important in a 
+webpage’s overall user experience. They are part of Google's Page Experience update
+and affect search rankings.
+
+The three Core Web Vitals are:
+
+1. Largest Contentful Paint (LCP)– Measures loading performance.
+
+    Good: LCP < 2.5 seconds
+2. First Input Delay (FID)– Measures interactivity (how long it takes for the site to 
+   respond after a user interacts).
+
+    Good: FID < 100 ms
+3. Cumulative Layout Shift (CLS)– Measures visual stability (how much things shift 
+   unexpectedly on screen).
+
+    Good: CLS < 0.1
+
+Google uses these vitals to assess how user-friendly and fast a webpage is. Improving 
+them helps with both SEO and user satisfaction.
+
+Would you like help checking or improving your site’s Core Web Vitals or SEO performance?
+
+
+
+To improve the ranking of our webpage we can write our code as:
+
+<meta name="description"
+        content="This webpage give us detiled information about the branch and cgpa of required individuals">
+
+This gives the web browser some information about the website it is hosting so that it can prioritize the
+necessary websites.
+
+
+Final Code:
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
+     <meta name="description"
         content="This webpage give us detiled information about the branch and cgpa of required individuals">
     <title>Student Details</title>
     <link rel="stylesheet" href="style.css">
