@@ -1,0 +1,1 @@
+alert("Welcome to VIT Vellore student details page");
