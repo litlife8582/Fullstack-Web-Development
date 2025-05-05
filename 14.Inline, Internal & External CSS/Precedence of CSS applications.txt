@@ -1,0 +1,6 @@
+According to order of precedence of CSS methods:
+1.Inline CSS
+2.Internal CSS
+3.External CSS
+
+Which is if you apply different CSS styles to the same <div> using all three methods — external, internal, and inline — the inline CSS will take precedence by default, unless another rule uses !important.
