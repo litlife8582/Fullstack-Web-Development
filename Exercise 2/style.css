@@ -1,0 +1,14 @@
+div p:first-child{
+    color: red;
+    background-color: yellow;
+}
+
+p{
+    color: white;
+    background-color: blue;   
+}
+
+/*#para{
+    color:green;
+    background-color: red;
+}*/
