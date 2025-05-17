@@ -1,0 +1,22 @@
+.first li{
+    list-style-type:devanagari;
+    background-color: yellow;
+    list-style-position: inside;
+    border: 2px solid black;
+    /*list-style-image: url(image.jpg);*/
+}
+
+.second li{
+    list-style: outside armenian;
+    background-color: aqua;
+    border: 2px solid green;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar li{
+    list-style-type: none;
+    padding: 23px;
+}
