@@ -1,0 +1,23 @@
+:root{
+    --color: blue;
+    --seccolor:red;
+}
+*{
+    background-color:aqua;
+}
+
+div{
+     background-color: var(--color);
+}
+
+ul{
+    list-style-type:none;
+    display: flex;    
+    background-color: var(--color);
+}
+
+li{
+    padding-right: 20px;
+    color: var(--seccolor);
+    background-color: var(--color);
+}
