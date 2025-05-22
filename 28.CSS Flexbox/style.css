@@ -1,0 +1,13 @@
+.container{
+    border: 2px solid red;
+    margin: 10px;
+    display: flex;
+}
+
+.items{
+    height:12px;
+    width:12px;
+    margin:4px;
+    border: 2px solid blue;
+    background-color: blueviolet;
+}

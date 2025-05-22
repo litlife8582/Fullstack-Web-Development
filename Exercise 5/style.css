@@ -1,0 +1,60 @@
+header{
+    height:30px;
+    background-color: purple;
+}
+main{
+    padding: 10px;
+}
+footer{
+    height:30px;
+    background-color: rgb(124, 182, 247);
+}
+
+.parent{
+    display: flex;
+    gap: 10px;
+    background-color: green;
+}
+
+
+.box1{
+    margin: 50px;
+    aspect-ratio: 1/1;
+    background-color: pink;
+    flex: 1;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.box2{
+    margin: 50px;
+    aspect-ratio: 1/1;
+    background-color: blue;
+    flex: 1;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.second{
+    background-color: rgb(7, 7, 7);
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+}
+
+html{
+    background-color: rgb(7, 7, 7);
+}
+
+.logo {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      width: 50px;  /* adjust size */
+      height: auto;
+      z-index: 1000; /* ensures it stays on top */
+      
+    }
