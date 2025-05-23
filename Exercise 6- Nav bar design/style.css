@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 100px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 30px;
+    margin-top: 0px;
+}
+
+.items{
+    padding-right: 30px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.669);
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+    gap: 6px; /*spacing between icon and text*/
+}
+
+#image{
+    margin-right: 300px;
+}
