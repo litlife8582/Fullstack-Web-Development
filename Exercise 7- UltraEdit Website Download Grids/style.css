@@ -1,0 +1,58 @@
+.container{
+    width: 80vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3,300px);
+    gap: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.item{
+    background-color: rgba(198, 195, 195, 0.114);
+    height: 180px;
+    width:300px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 1200px;
+    font-size: 17px;
+    text-align: center;
+
+
+    display: flex;
+    flex-direction: column;          /* Stack vertically */
+    justify-content: center;         /* Vertical centering */
+    align-items: center;  
+}
+.item p{
+    font-size: 12px;
+}
+
+/* .download{
+    height: 30px;
+    width: 150px;
+    background-color: rgba(3, 194, 3, 0.651);
+    padding-top : 10px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left: 75px;
+    border-radius: 5px;
+    color: white;
+} */
+
+.download{
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 120px;
+    height: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: background-color 0.2s ease;
+}
