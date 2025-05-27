@@ -1,3 +1,6 @@
+header{
+    height: 10vh;
+}
 .container{
     width: 80vw;
     height: 100vh;
@@ -25,7 +28,9 @@
     justify-content: center;         /* Vertical centering */
     align-items: center;  
 }
-.item p{
+.tag{
+    margin-top: 10px;
+    margin-bottom: 30px;
     font-size: 12px;
 }
 
@@ -55,4 +60,9 @@
     text-align: center;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     transition: background-color 0.2s ease;
+}
+
+
+.english{
+    margin-bottom: 50px;
 }
