@@ -1,0 +1,21 @@
+.container{
+    width: 100vw;
+    height: 80vh;
+    border: 2px solid purple;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: beige;
+    border: 2px solid black;
+    /* transform: rotate(0.35turn); */
+    /* transform: rotateX(40deg);
+    transform: skew(34deg);
+    transform: translateY(34%);*/
+    transform-origin: 60% 250%; 
+    transform: rotate(100deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
