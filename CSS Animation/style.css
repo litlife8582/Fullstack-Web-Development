@@ -1,0 +1,50 @@
+.container{
+    height: 500px;
+    width: 4    00px;
+    background-color: rgba(0, 255, 255, 0.146);
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    animation: myanimation2,myanimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.075, 0.2, 0.195, 2);
+    animation-delay: 5s;
+    animation-fill-mode: backwards;
+    /* animation-direction: reverse; */
+    /* animation-play-state:paused; */
+
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes myanimation{
+    from{
+        background-color: aqua;
+    }
+
+    to{
+        background-color: rgb(226, 55, 43);
+        transform: translateX(1000px);
+    }
+}
+
+@keyframes myanimation2 {
+            0%{
+                transform: rotate(100deg);
+            }
+            20%{
+                transform: rotate(200deg);
+            }
+            50%{
+                transform: rotate(220deg);
+            }
+            80%{
+                transform: rotate(300deg);
+            }
+            100%{
+                transform: rotate(310deg);
+            }
+        }
