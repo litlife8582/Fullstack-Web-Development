@@ -1,0 +1,17 @@
+.container{
+    margin: 14px;
+    padding :14px;
+    background-color: aqua;
+}
+
+.child-container{
+    margin: 14px;
+    padding: 14px;
+    background-color: brown;
+}
+
+.child{
+    margin: 14px;
+    padding: 14px;
+    background-color:chartreuse ;
+}
