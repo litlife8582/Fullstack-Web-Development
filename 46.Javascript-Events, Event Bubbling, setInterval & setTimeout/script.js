@@ -12,3 +12,17 @@ document.addEventListener("keydown",(e)=>{
     console.log(e.key, e.keyCode)
     document.querySelector(".box").innerHTML=`How are you?  `
 })
+
+
+
+
+function getRandomRGBColor() {
+  const r = Math.floor(Math.random() * 256); 
+  const g = Math.floor(Math.random() * 256);
+  const b = Math.floor(Math.random() * 256);
+  return `rgb(${r}, ${g}, ${b})`;
+}
+
+setInterval(()=>{
+    document.querySelector(".box").style.background=getRandomRGBColor();
+},1000);
