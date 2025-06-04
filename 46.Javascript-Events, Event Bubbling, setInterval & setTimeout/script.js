@@ -23,6 +23,12 @@ function getRandomRGBColor() {
   return `rgb(${r}, ${g}, ${b})`;
 }
 
-setInterval(()=>{
+// setInterval(()=>{
+//     document.querySelector(".box").style.background=getRandomRGBColor();
+// },1000);
+
+let a= setTimeout(()=>{
     document.querySelector(".box").style.background=getRandomRGBColor();
 },1000);
+
+console.log(a)
