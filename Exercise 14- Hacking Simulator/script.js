@@ -7,7 +7,7 @@ function time(){
 async function getData1(){
     return new Promise((resolve,reject) => {
         setTimeout(() => {
-          resolve("Initializing Hacking...")
+          resolve()
         },time()
         )      
     }
@@ -17,7 +17,7 @@ async function getData1(){
 async function getData2(){
     return new Promise((resolve,reject) => {
         setTimeout(() => {
-          resolve("Reading your Files...")
+          resolve()
         },time()
         )      
     }
@@ -27,7 +27,7 @@ async function getData2(){
 async function getData3(){
     return new Promise((resolve,reject) => {
         setTimeout(() => {
-          resolve("Password files Detected...")
+          resolve()
         },time()
         )      
     }
@@ -37,7 +37,7 @@ async function getData3(){
 async function getData4(){
     return new Promise((resolve,reject) => {
         setTimeout(() => {
-          resolve("Sending all passwords and personal files to server...")
+          resolve()
         },time()
         )      
     }
@@ -47,7 +47,7 @@ async function getData4(){
 async function getData5(){
     return new Promise((resolve,reject) => {
         setTimeout(() => {
-          resolve("Cleaning up...")
+          resolve()
         },time()
         )      
     }
