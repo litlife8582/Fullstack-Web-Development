@@ -1,5 +1,27 @@
 {
+  "name": "spotify",
+  "version": "1.0.0",
+  "description": "this is a spotify clone",
+  "keywords": [
+    "sp"
+  ],
+  "homepage": "https://github.com/litlife8582/Fullstack#readme",
+  "bugs": {
+    "url": "https://github.com/litlife8582/Fullstack/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litlife8582/Fullstack.git"
+  },
+  "license": "ISC",
+  "author": "Mayukh",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
-    "prompt-sync": "^4.2.0"
+    "prompt-sync": "^4.2.0",
+    "slugify": "^1.6.6"
   }
 }
