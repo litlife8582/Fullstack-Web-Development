@@ -1,0 +1,19 @@
+{
+  "name": "working_with_file",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "files"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "Fullstack"
+  },
+  "license": "ISC",
+  "author": "Mayukh",
+  "type":"module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
