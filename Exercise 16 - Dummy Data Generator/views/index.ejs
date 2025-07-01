@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <form action="/generate" method="POST">
+    <div class="container">
+    <form class="item" action="/generate" method="POST">
         <button type="submit" class="btn btn-outline-primary">Generate Values</button>
     </form>
-    <form action="/clear" method="POST">
+    <form class="item" action="/clear" method="POST">
         <button type="submit" class="btn btn-outline-primary">Clear Data</button>
     </form>
-    <form action="/delete-db" method="POST">
+    <form class="item" action="/delete-db" method="POST">
         <button type="submit" class="btn btn-outline-primary">Delete Database</button>
     </form>
+    </div>
 
     <h2>Current Records:</h2>
   <ul>
