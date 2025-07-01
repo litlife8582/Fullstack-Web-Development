@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/generate" method="POST">
+        <button type="submit" class="btn btn-outline-primary">Generate Values</button>
+    </form>
+    <form action="/clear" method="POST">
+        <button type="submit" class="btn btn-outline-primary">Clear Data</button>
+    </form>
+    <form action="/delete-db" method="POST">
+        <button type="submit" class="btn btn-outline-primary">Delete Database</button>
+    </form>
+
+    <h2>Current Records:</h2>
+  <ul>
+    <% employees.forEach(emp => { %>
+      <li><strong><%= emp.name %></strong> - <%= emp.role %> - <%= emp.address %></li>
+    <% }) %>
+
+  </ul>
+</body>
+</html>
