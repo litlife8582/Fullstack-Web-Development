@@ -1,0 +1,7 @@
+.card{
+    margin: 10%;
+    padding: 10%;
+    border: solid black;
+    border-radius: 15px;
+    background-image: url("https://images.unsplash.com/photo-1524466302651-a98b8b02c497?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aXBob25lJTIwb24lMjB0YWJsZXxlbnwwfHwwfHx8MA%3D%3D");
+}
