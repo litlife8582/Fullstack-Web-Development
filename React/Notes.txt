@@ -1,0 +1,11 @@
+Files to be deleted from  basic react app initially:
+    1.setup.js
+    2.reportWebVitals
+    3.logo.svg
+    4.App.test.js
+    5.App.css
+
+Files to be deleted from  vite react app initially:
+    1.assets.css
+    2.App.css
+    3.index.css
