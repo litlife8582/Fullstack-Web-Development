@@ -1,11 +1,15 @@
-
+import Chai from "./chai";
 
 function App() {
 
   return (
     <>
-    <hi>Chai or React || Mayukh</hi>
+    <Chai/>
+    <h1>
+      Hi my name is Mayukh Sarkar
+    </h1>
     </>
+    
   )
 }
 
