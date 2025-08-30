@@ -8,6 +8,7 @@ function customRender(reactElement,container){
     container.appendChild(domElement)  
     */
 
+    //Under Looping approach
     const domElement=document.createElement(reactElement.type)
     domElement.innerHTML=reactElement.children
     for(const prop in reactElement.props){
