@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",
+    "@tailwindcss/vite": "^4.1.12",
     "bootstrap": "^5.3.7",
     "express": "^5.1.0",
     "mongoose": "^8.16.0",
@@ -29,7 +30,7 @@
     "prompt-sync": "^4.2.0",
     "react": "^19.1.0",
     "slugify": "^1.6.6",
-    "tailwindcss": "^4.1.11",
+    "tailwindcss": "^4.1.12",
     "vite": "^7.0.4"
   }
 }
