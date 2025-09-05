@@ -36,7 +36,7 @@ function App() {
 
   //useEffect->Running
   useEffect(()=>{passwordGenerator()},
-  [length,numberAllowed,charAllowed])
+  [length,numberAllowed,charAllowed,passwordGenerator])
   return (
     <>
       <div className='w-full max-w-md shadow-md pb-6 pt-2
