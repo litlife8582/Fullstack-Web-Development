@@ -43,7 +43,8 @@ function InputBox({
                 >
                     
                         {currencyOptions.map((currency)=>(
-                          <option key={currency} value={currency}>//Key has to be used in .jsx file to improve performance
+                        //Key has to be used in .jsx file to improve performance
+                          <option key={currency} value={currency}>
                             {currency}
                           </option>
                         ))}

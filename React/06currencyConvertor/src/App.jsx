@@ -4,13 +4,13 @@ import useCurrencyInfo from './hooks/useCurrencyinfo'
 import './App.css'
 
 function App() {
-  const [amount, setAmount] = useState(0)
+  const [amount, setAmount] = useState()
   const [from, setFrom] = useState("usd");
   const [to, setTo] = useState("inr");
-  const [convertedAmount, setConvertedAmount] = useState(0)
+  const [convertedAmount, setConvertedAmount] = useState()
 
-  const CurrencyInfo = useCurrencyInfo(from)
-  const options = Object.keys(CurrencyInfo)
+  const currencyInfo = useCurrencyInfo(from)
+  const options = Object.keys(currencyInfo)
   const swap = () => {
     setFrom(to)
     setTo(from)
@@ -18,8 +18,13 @@ function App() {
     setAmount(convertedAmount)
   }
 
+  const reset=()=>{
+    setConvertedAmount({amount})
+    setAmount({amount })
+  }
+
   const convert = () => {
-    setConvertedAmount(amount * CurrencyInfo(to))
+    setConvertedAmount(amount * currencyInfo[to])
   }
 
 
@@ -43,14 +48,17 @@ function App() {
                 label="From"
                 amount={amount}
                 currencyOptions={options}
-                onCurrencyChange={(currency)=>setAmount(currency)}
+                onCurrencyChange={(currency)=>setFrom(currency)}
                 onAmountChange={(amount)=>setAmount(amount)}
+                selectCurrency={from}
               />
             </div>
             <div className="relative w-full h-0.5">
               <button
                 type="button"
-                className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 border-2 border-white rounded-md bg-blue-600 text-white px-2 py-0.5"
+                className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 border-2
+                 border-white rounded-md bg-blue-600 text-white px-2 py-0.5
+                  active:bg-blue-900  hover:bg-blue-500"
                 onClick={swap}
               >
                 swap
@@ -62,12 +70,19 @@ function App() {
                 amount={convertedAmount}
                 currencyOptions={options}
                 onCurrencyChange={(currency)=>setTo(currency)}
+                selectCurrency={to}
                 amountDisable
               />
             </div>
-            <button type="submit" className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg">
-              Convert {from.toUpperCase} to {to.toUpperCase}
+            <button type="submit" className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg
+             active:bg-blue-900 hover:bg-blue-500">
+              Convert {from.toUpperCase()} to {to.toUpperCase()}
             </button>
+
+            <button type="button" className=" justify-center block mx-auto mt-3 
+                 border-white rounded-md bg-blue-600 text-white px-2 py-0.5
+                  active:bg-blue-900  hover:bg-blue-500"
+            onClick={reset}>Reset</button>
           </form>
         </div>
       </div>
