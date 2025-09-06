@@ -25,11 +25,11 @@ function InputBox({
                 <input
                     id={amountInputId}
                     className="outline-none w-full bg-transparent py-1.5"
-                    type="number"
+                    type="text"
                     placeholder="Amount"
                     disabled={amountDisable}
                     value={amount}
-                    onChange={(e)=>onAmountChange && onAmountChange(Number(e.target.value))}//runs if onAmountChange exists(value is passed) as no default value is provided
+                    onChange={(e) => onAmountChange && onAmountChange(e.target.value)}//runs if onAmountChange exists(value is passed) as no default value is provided
                     //Number converts the string value e.target.value to number for onAmountChange to execute(it takes numeric value not string)
                 />
             </div>

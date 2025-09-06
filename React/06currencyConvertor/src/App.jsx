@@ -19,8 +19,8 @@ function App() {
   }
 
   const reset=()=>{
-    setConvertedAmount({amount})
-    setAmount({amount })
+    setConvertedAmount("")
+    setAmount("")
   }
 
   const convert = () => {
@@ -49,7 +49,7 @@ function App() {
                 amount={amount}
                 currencyOptions={options}
                 onCurrencyChange={(currency)=>setFrom(currency)}
-                onAmountChange={(amount)=>setAmount(amount)}
+                 onAmountChange={(amount) => setAmount(amount === "" ? "" : Number(amount))}
                 selectCurrency={from}
               />
             </div>
