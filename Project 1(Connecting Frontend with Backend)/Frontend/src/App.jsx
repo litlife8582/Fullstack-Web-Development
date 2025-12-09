@@ -20,7 +20,7 @@ function App() {
       <p>Number of Contents: {content.length}</p>
 
       {
-        content.map((item,index)=>(
+        content.map((item)=>(
           <div key={item.id}>
             <h3>{item.title}</h3>
             <p>{item.material}</p>
